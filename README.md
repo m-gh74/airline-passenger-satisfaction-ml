@@ -7,8 +7,7 @@
 ---
 
 ## 📦 Dataset
-- Source: Kaggle — [*Airline Passenger Satisfaction* (replace with the exact dataset page you used).  
-  Example: https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction](https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction)
+- Source: Kaggle —(https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction)
 - Columns typically include: passenger demographics, loyalty, travel type, class, service ratings (wifi, seat comfort, entertainment, booking, cleanliness, ...), departure/arrival delays, and the label **`satisfaction`**.
 - **Please review and state the dataset's license/terms of use here.**
 
@@ -19,7 +18,7 @@
 ## ▶️ Open in Colab
 After you push this repo, replace the placeholders below with your own GitHub user/repo:
 
-[![Open In Colab](https://colab.research.google.com/drive/1X56ZzDbTdNiZpzRFMnyC04ZzNTyVPDHj#scrollTo=M2rVO2JDoZzE)
+https://colab.research.google.com/drive/1X56ZzDbTdNiZpzRFMnyC04ZzNTyVPDHj
 
 ---
 
