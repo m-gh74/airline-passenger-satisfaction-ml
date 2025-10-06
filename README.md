@@ -19,31 +19,5 @@ https://colab.research.google.com/drive/1X56ZzDbTdNiZpzRFMnyC04ZzNTyVPDHj
 
 ---
 
-## 🚀 Quickstart (Local)
-```bash
-pip install -r requirements.txt
-
-
-
-
-## 📁 Project Structure
-```
-.
-├─ notebooks/
-│  └─ Airline_Passenger_Satisfaction_Project.ipynb
-├─ src/                      # Optional: modules/scripts
-├─ data/
-│  ├─ sample/          
-│  ├─ raw/                
-│  └─ processed/            
-├─ reports/
-│  └─ figures/             
-├─ scripts/                  
-├─ requirements.txt
-├─ .gitignore
-└─ LICENSE
-```
-
-
 
 
