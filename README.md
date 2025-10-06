@@ -1,14 +1,14 @@
 # ✈️ Airline Passenger Satisfaction — ML Classification
 
-This repository contains your Colab notebook and a clean, reproducible structure for publishing to GitHub as part of a PhD application portfolio.
+
 
 > **Last updated:** 2025-10-06
 
 ---
 
 ## 📦 Dataset
-- Source: Kaggle — *Airline Passenger Satisfaction* (replace with the exact dataset page you used).  
-  Example: https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction
+- Source: Kaggle — [*Airline Passenger Satisfaction* (replace with the exact dataset page you used).  
+  Example: https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction](https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction)
 - Columns typically include: passenger demographics, loyalty, travel type, class, service ratings (wifi, seat comfort, entertainment, booking, cleanliness, ...), departure/arrival delays, and the label **`satisfaction`**.
 - **Please review and state the dataset's license/terms of use here.**
 
@@ -19,7 +19,7 @@ This repository contains your Colab notebook and a clean, reproducible structure
 ## ▶️ Open in Colab
 After you push this repo, replace the placeholders below with your own GitHub user/repo:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<GITHUB_USER>/<REPO_NAME>/blob/main/notebooks/Airline_Passenger_Satisfaction_Project.ipynb)
+[![Open In Colab](https://colab.research.google.com/drive/1X56ZzDbTdNiZpzRFMnyC04ZzNTyVPDHj#scrollTo=M2rVO2JDoZzE)
 
 ---
 
