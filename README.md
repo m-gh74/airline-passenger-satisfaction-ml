@@ -9,14 +9,11 @@
 ## 📦 Dataset
 - Source: Kaggle —(https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction)
 - Columns typically include: passenger demographics, loyalty, travel type, class, service ratings (wifi, seat comfort, entertainment, booking, cleanliness, ...), departure/arrival delays, and the label **`satisfaction`**.
-- **Please review and state the dataset's license/terms of use here.**
 
-> **Do not commit the full dataset.** Use the auto-download cell below and keep only a tiny sample in `data/sample/`.
 
 ---
 
 ## ▶️ Open in Colab
-After you push this repo, replace the placeholders below with your own GitHub user/repo:
 
 https://colab.research.google.com/drive/1X56ZzDbTdNiZpzRFMnyC04ZzNTyVPDHj
 
@@ -25,40 +22,9 @@ https://colab.research.google.com/drive/1X56ZzDbTdNiZpzRFMnyC04ZzNTyVPDHj
 ## 🚀 Quickstart (Local)
 ```bash
 pip install -r requirements.txt
-# Then open the notebook in notebooks/ and run the "Download dataset" cell
-```
 
-### 📥 Kaggle auto-download cell (add to your notebook)
-```python
-# Install Kaggle CLI
-!pip -q install kaggle
 
-# Put your kaggle.json once (do NOT commit it)
-!mkdir -p ~/.kaggle
-!cp kaggle.json ~/.kaggle/
-!chmod 600 ~/.kaggle/kaggle.json
 
-# Download (change the dataset slug if you used a different one)
-import os; os.makedirs("data/raw", exist_ok=True)
-!kaggle datasets download -d teejmahal20/airline-passenger-satisfaction -p data/raw
-!unzip -o "data/raw/*.zip" -d data/raw
-```
-
----
-
-## 🔁 Reproducibility
-Add a top cell that fixes seeds and prints package versions:
-```python
-import sys, platform, random, os, numpy as np, pandas as pd
-SEED = 42
-random.seed(SEED); np.random.seed(SEED)
-print("Python:", sys.version.split()[0])
-print("Platform:", platform.platform())
-print("Pandas:", pd.__version__)
-os.makedirs("data/raw", exist_ok=True); os.makedirs("data/processed", exist_ok=True)
-```
-
----
 
 ## 📁 Project Structure
 ```
